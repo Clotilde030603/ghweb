@@ -30,9 +30,9 @@
     // SMTP 보안 프초트콜
     $mail->SMTPSecure = "ssl";
     // gmail 유저 아이디
-    $mail->Username = "gi6402906@gmail.com";
+    $mail->Username = "메일 계정 ID";
     // gmail 패스워드
-    $mail->Password ="qaaowfrycsgvnjty";
+    $mail->Password ="SMTP 앱 PW";
     // 인코딩 셋
     $mail->CharSet = 'utf-8'; 
     $mail->Encoding = "base64";
@@ -60,8 +60,8 @@ $userID = $_POST['userID'];
 $userEmail = $_POST['userEmail'];
 
 if (!is_null($userID) && !is_null($userEmail) && !is_null($authcode)) {
-    $db_id = "root";
-    $db_pw = "0epK81g3yp<r";
+    $db_id = "DB ID";
+    $db_pw = "DB PW";
     $db_name = "User";
     $db_domain = "localhost";
 
